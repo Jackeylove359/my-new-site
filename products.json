@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "name": "Microcat EPC",
+    "price": 299,
+    "category": "parts",
+    "stock": 50,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Microcat%20EPC%20automotive%20electronic%20parts%20catalog%20software%20dashboard%20interface%20blue%20theme&image_size=square",
+    "description": "The industry-leading electronic parts catalog (EPC) covering 50+ vehicle brands. Advanced VIN decoding, exploded-view diagrams, and real-time parts lookup used by 250,000+ users across 186 countries."
+  },
+  {
+    "id": 2,
+    "name": "Microcat Pro",
+    "price": 199,
+    "category": "parts",
+    "stock": 35,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Microcat%20Pro%20mobile%20parts%20lookup%20app%20tablet%20interface%20automotive%20workshop&image_size=square",
+    "description": "Mobile-first parts query solution for technicians on the workshop floor. Offline-capable catalog access, barcode scanning, and instant parts identification from any device."
+  },
+  {
+    "id": 3,
+    "name": "SimplePart",
+    "price": 499,
+    "category": "ecommerce",
+    "stock": 20,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=SimplePart%20dealer%20ecommerce%20platform%20automotive%20online%20parts%20store%20web%20interface&image_size=square",
+    "description": "Complete dealer-to-consumer ecommerce platform. Integrated shopping cart, secure payments, live inventory sync, and branded storefronts that turn parts catalogs into online revenue."
+  },
+  {
+    "id": 4,
+    "name": "Superservice Connect",
+    "price": 249,
+    "category": "service",
+    "stock": 40,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Superservice%20Connect%20online%20service%20booking%20scheduling%20automotive%20appointment%20calendar&image_size=square",
+    "description": "Online service booking and appointment management. Customers self-book service slots, while workshops optimize bay utilization with smart scheduling and automated reminders."
+  },
+  {
+    "id": 5,
+    "name": "Superservice Menus",
+    "price": 149,
+    "category": "service",
+    "stock": 25,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Superservice%20Menus%20service%20quotation%20pricing%20generator%20automotive%20invoice&image_size=square",
+    "description": "Professional quote and service menu generator. Standardized pricing for every service operation, transparent customer quotes, and consistent margin control across your dealer network."
+  },
+  {
+    "id": 6,
+    "name": "Superservice Triage",
+    "price": 199,
+    "category": "service",
+    "stock": 30,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Superservice%20Triage%20workshop%20inspection%20vehicle%20health%20check%20diagnostic%20tool&image_size=square",
+    "description": "Guided workshop inspection and vehicle triage. Digital multi-point inspection, photo documentation, and automated customer-friendly condition reports that drive service upsell."
+  },
+  {
+    "id": 7,
+    "name": "Infodrive",
+    "price": 399,
+    "category": "analytics",
+    "stock": 15,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Infodrive%20data%20analytics%20platform%20automotive%20business%20intelligence%20charts%20dashboard&image_size=square",
+    "description": "Enterprise analytics platform for automotive aftermarket. Real-time KPI dashboards, parts demand forecasting, and customer behavior insights powered by your dealership data."
+  },
+  {
+    "id": 8,
+    "name": "Intellegam Assistants",
+    "price": 299,
+    "category": "ai",
+    "stock": 10,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Intellegam%20AI%20assistant%20automotive%20chatbot%20virtual%20service%20advisor%20interface&image_size=square",
+    "description": "AI-powered virtual assistants for parts and service. Natural language parts lookup, 24/7 customer service chatbots, and intelligent service recommendation engines."
+  },
+  {
+    "id": 9,
+    "name": "Microcat EPC EU Edition",
+    "price": 349,
+    "category": "parts",
+    "stock": 28,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Microcat%20EPC%20Europe%20edition%20automotive%20parts%20catalog%20regional%20interface&image_size=square",
+    "description": "European-market edition of Microcat EPC with localized VIN data, EU supplier pricing, multi-currency support, and compliance with European vehicle homologation standards."
+  },
+  {
+    "id": 10,
+    "name": "Microcat Pro APAC",
+    "price": 229,
+    "category": "parts",
+    "stock": 32,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Microcat%20Pro%20Asia%20Pacific%20mobile%20parts%20app%20regional%20automotive%20workshop&image_size=square",
+    "description": "Asia-Pacific edition of Microcat Pro. Localized for right-hand and left-hand drive markets, with regional language support and APAC distributor inventory integration."
+  },
+  {
+    "id": 11,
+    "name": "SimplePart Plus",
+    "price": 599,
+    "category": "ecommerce",
+    "stock": 12,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=SimplePart%20Plus%20premium%20ecommerce%20platform%20automotive%20parts%20store%20advanced%20features&image_size=square",
+    "description": "Premium tier of SimplePart with advanced merchandising, B2B account portals, dynamic pricing rules, multi-warehouse routing, and integrated marketing automation."
+  },
+  {
+    "id": 12,
+    "name": "Superservice Connect Pro",
+    "price": 349,
+    "category": "service",
+    "stock": 18,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Superservice%20Connect%20Pro%20advanced%20service%20scheduling%20multi-bay%20workshop%20calendar&image_size=square",
+    "description": "Pro edition with multi-location scheduling, technician skill matching, loaner vehicle management, and customer loyalty program integration for high-volume service centers."
+  },
+  {
+    "id": 13,
+    "name": "Superservice Menus Lite",
+    "price": 99,
+    "category": "service",
+    "stock": 45,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Superservice%20Menus%20Lite%20basic%20service%20pricing%20quotation%20tool%20small%20workshop&image_size=square",
+    "description": "Lightweight quote generator for independent workshops. Core service menu templates, simple PDF quotes, and essential pricing management at an entry-level price point."
+  },
+  {
+    "id": 14,
+    "name": "Superservice Triage AI",
+    "price": 279,
+    "category": "service",
+    "stock": 22,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Superservice%20Triage%20AI%20artificial%20intelligence%20vehicle%20inspection%20automated%20diagnostic&image_size=square",
+    "description": "AI-enhanced triage with computer-vision damage detection, automated estimate generation, and predictive repair recommendations that increase workshop efficiency by 30%."
+  },
+  {
+    "id": 15,
+    "name": "Infodrive Premium",
+    "price": 549,
+    "category": "analytics",
+    "stock": 8,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Infodrive%20Premium%20enterprise%20analytics%20automotive%20advanced%20dashboards%20forecasting&image_size=square",
+    "description": "Premium analytics suite with predictive demand modeling, custom report builder, API access for BI tools, and dedicated data warehouse for large dealer groups."
+  },
+  {
+    "id": 16,
+    "name": "Infodrive Starter",
+    "price": 199,
+    "category": "analytics",
+    "stock": 38,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Infodrive%20Starter%20basic%20analytics%20dashboard%20automotive%20small%20business%20reports&image_size=square",
+    "description": "Entry-level analytics for single-location workshops. Pre-built sales, service, and inventory dashboards with monthly trends and simple export to CSV and PDF."
+  },
+  {
+    "id": 17,
+    "name": "Intellegam Assistants Pro",
+    "price": 499,
+    "category": "ai",
+    "stock": 6,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Intellegam%20AI%20Pro%20advanced%20virtual%20assistant%20automotive%20enterprise%20chatbot&image_size=square",
+    "description": "Enterprise AI assistant with custom training on your parts catalog, multi-language support, voice-enabled service booking, and deep CRM integration for dealer groups."
+  },
+  {
+    "id": 18,
+    "name": "Microcat Fleet",
+    "price": 449,
+    "category": "parts",
+    "stock": 14,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Microcat%20Fleet%20parts%20catalog%20fleet%20management%20commercial%20vehicles%20interface&image_size=square",
+    "description": "Fleet-focused parts catalog for commercial vehicle operators. Multi-vehicle lookup, bulk parts ordering, fleet-wide service scheduling, and total cost of ownership tracking."
+  },
+  {
+    "id": 19,
+    "name": "SimplePart Mobile",
+    "price": 329,
+    "category": "ecommerce",
+    "stock": 26,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=SimplePart%20Mobile%20responsive%20ecommerce%20automotive%20parts%20mobile%20app%20storefront&image_size=square",
+    "description": "Mobile-optimized ecommerce storefront with native app experience, push notifications for order status, one-tap reordering, and mobile payment integration."
+  },
+  {
+    "id": 20,
+    "name": "Superservice Workshop",
+    "price": 379,
+    "category": "service",
+    "stock": 16,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Superservice%20Workshop%20complete%20service%20management%20automotive%20repair%20shop%20software&image_size=square",
+    "description": "Complete workshop management platform combining booking, triage, menus, and technician dispatch in one integrated suite designed for high-throughput service centers."
+  },
+  {
+    "id": 21,
+    "name": "Infodrive Predictive",
+    "price": 459,
+    "category": "analytics",
+    "stock": 11,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Infodrive%20Predictive%20machine%20learning%20automotive%20forecasting%20demand%20prediction%20charts&image_size=square",
+    "description": "Machine-learning forecasting module that predicts parts demand, service load, and customer churn up to 90 days ahead, enabling proactive inventory and staffing decisions."
+  },
+  {
+    "id": 22,
+    "name": "Intellegam Chat",
+    "price": 189,
+    "category": "ai",
+    "stock": 24,
+    "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Intellegam%20Chat%20AI%20chatbot%20widget%20automotive%20customer%20service%20website%20support&image_size=square",
+    "description": "Lightweight AI chat widget for dealer websites. Answers parts and service questions 24/7, captures leads, books appointments, and escalates to human agents when needed."
+  }
+]
