@@ -2,7 +2,15 @@
  * admin.js - 后台管理模块
  * 负责：管理员登录、产品 CRUD、客户注册、查看/清空所有购物车
  * 使用 ES6+ 特性：async/await、模板字面量、箭头函数、解构赋值、展开运算符、默认参数
+ *
+ * IIFE 隔离：全部代码包裹在立即执行函数内，所有顶层 const/let 都封闭在
+ *           函数作用域中，避免与 storage.js / main.js 的全局同名标识符冲突
+ *           （历史 bug：原顶层 const addProduct 与 storage.js 顶层 const addProduct
+ *            同名共享全局词法作用域，触发 SyntaxError: Identifier 'addProduct' has already been declared）
+ *           对外仅通过 window.Admin 暴露公共方法。
  */
+(function () {
+  'use strict';
 
 // ES6: 分类映射表（与 products.js 保持一致）
 const ADMIN_CATEGORIES = {
@@ -201,8 +209,11 @@ const previewImage = (url) => {
 
 /**
  * 添加产品（ES6 解构赋值 + 表单验证）
+ * #1 修复：原 const addProduct 与 storage.js 顶层 const addProduct 同名，
+ *         在共享全局作用域下触发 SyntaxError: Identifier 'addProduct' has already been declared。
+ *         重命名为 addProductFromForm，对外仍以 Admin.addProduct 暴露（见文件末导出）。
  */
-const addProduct = () => {
+const addProductFromForm = () => {
   // ES6: 收集表单值
   const name = document.getElementById('newProductName').value.trim();
   const price = document.getElementById('newProductPrice').value;
@@ -699,11 +710,16 @@ const showRegistrationConfirm = (name) => {
   });
 };
 
-// 暴露 API
+// 暴露 API（IIFE 内部赋值给 window.Admin，对外仍以 Admin.xxx 形式调用）
 window.Admin = {
   adminLogin, adminLogout, showLoginScreen, showAdminPanel, switchTab,
-  renderAdminProductsPanel, renderAddProductForm, previewImage, addProduct,
+  renderAdminProductsPanel, renderAddProductForm, previewImage,
+  // 本地函数 addProductFromForm 通过别名对外暴露为 Admin.addProduct，
+  // 保持 admin.html 表单 onsubmit="Admin.addProduct()" 调用不变
+  addProduct: addProductFromForm,
   renderAdminProductsList, editProduct, saveEditProduct, deleteProduct,
   renderAdminCustomersPanel, renderRegisterCustomerPanel, registerCustomer,
   renderAdminCartsPanel, clearAllCarts, initAdminPage, showRegistrationConfirm
 };
+
+})();
